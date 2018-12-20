@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="动作有源"
+        android:visibility="visible"
+        android:textColor="@android:color/black"
+        android:id="@+id/bt_action_yy"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="动作无源"
+        android:visibility="gone"
+        android:textColor="@android:color/black"
+        android:id="@+id/bt_action_wy"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="静默有源"
+        android:visibility="gone"
+        android:textColor="@android:color/black"
+        android:id="@+id/bt_fmp_yy"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="静默无源"
+        android:visibility="gone"
+        android:textColor="@android:color/black"
+        android:id="@+id/bt_fmp_wy"/>
+
+</LinearLayout>
