@@ -64,7 +64,7 @@ public class MainActivity extends Activity implements View.OnClickListener, Dete
     private String sign = "";
     private static final String SIGN_VERSION = "hmac_sha1";
     private byte[] imageRef;//底库图片
-    private int buttonType;//1
+    private int buttonType;//2
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
